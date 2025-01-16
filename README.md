@@ -22,6 +22,7 @@ To get started with this project, follow these steps:
 4. **Build Gutenberg blocks**  
    For the Gutenberg blocks to work, you need to build them as well. Inside the theme, navigate to `resources/blocks` and run:
    ```bash
+   npm install
    npm run build
    ```
 
