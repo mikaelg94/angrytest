@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav-primary {
+  ul {
+    @apply flex space-x-4 text-lg;
+  }
+}
+
+
+.footer-nav-primary {
+  ul {
+    @apply flex flex-col text-base text-gray-400;
+  }
+}
+
+/**
+* sticky footer
+*/
+html, body, #app {
+  @apply h-full;
+}
+
+#app {
+  @apply flex flex-col;
+
+  box-sizing: border-box;
+}
+
+.site-main-content {
+  flex: 1 0 auto;
+}
+
+.site-footer {
+  flex-shrink: 0;
+}

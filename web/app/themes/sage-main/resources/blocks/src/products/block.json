@@ -1,0 +1,34 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "gonera/products",
+	"version": "0.1.0",
+	"title": "Products",
+	"category": "woocommerce",
+	"icon": "archive",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {
+		"attributes": {
+			"content": "Preview content"
+		},
+		"innerHTML": "<div style=\"text-align: center;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Faydee.jpg/800px-Faydee.jpg\" alt=\"Block Preview\" style=\"max-width: 100%; height: auto;\" /></div>"
+	},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": ""
+		},
+		"products": {
+			"type": "array",
+			"default": []
+		}
+	},
+	"textdomain": "blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}
