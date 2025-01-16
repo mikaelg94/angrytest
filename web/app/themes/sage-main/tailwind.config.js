@@ -10,6 +10,9 @@ const config = {
     extend: {
       container: {
         center: true,
+        padding: {
+          DEFAULT: '1rem',
+        },
       },
       fontFamily: {
         garamond: ['EB Garamond', 'serif'],
